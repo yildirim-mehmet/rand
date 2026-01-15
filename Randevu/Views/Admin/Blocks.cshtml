@@ -1,0 +1,130 @@
+﻿@{
+    var manual = (List<Randevu.Entities.ManualBlock>)ViewBag.ManualBlocks;
+    var recurring = (List<Randevu.Entities.RecurringBlock>)ViewBag.RecurringBlocks;
+}
+<link rel="stylesheet" href="/css/site.css" />
+
+<h2>Kapatma / Blok - @ViewBag.SalonName (SalonId=@ViewBag.SalonId)</h2>
+
+<h3>Tekil Blok Ekle</h3>
+<form method="post" action="/Admin/CreateManualBlock">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="SalonId" value="@ViewBag.SalonId" />
+
+    <div class="formrow">
+        <label>Tarih (yyyy-MM-dd)</label>
+        <input name="Date" placeholder="2026-01-20" />
+    </div>
+    <div class="formrow">
+        <label>Başlangıç (HH:mm)</label>
+        <input name="StartTime" placeholder="09:00" />
+    </div>
+    <div class="formrow">
+        <label>Bitiş (HH:mm)</label>
+        <input name="EndTime" placeholder="10:30" />
+    </div>
+    <div class="formrow">
+        <label>Koltuk (boş=hepsi)</label>
+        <input name="ChairNo" type="number" min="1" />
+    </div>
+    <div class="formrow">
+        <label>Not</label>
+        <input name="Reason" />
+    </div>
+
+    <button type="submit">Ekle</button>
+</form>
+
+<h3>Tekrarlayan Blok Ekle</h3>
+<form method="post" action="/Admin/CreateRecurringBlock">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="SalonId" value="@ViewBag.SalonId" />
+
+    <div class="formrow">
+        <label>Tip</label>
+        <select name="Type">
+            <option value="1">Her Gün</option>
+            <option value="2">Haftanın Günü</option>
+        </select>
+    </div>
+
+    <div class="formrow">
+        <label>Haftanın Günü (Weekly için 1=Mon..7=Sun)</label>
+        <input name="DayOfWeekIso" type="number" min="1" max="7" />
+    </div>
+
+    <div class="formrow">
+        <label>Başlangıç</label>
+        <input name="StartTime" placeholder="09:00" />
+    </div>
+
+    <div class="formrow">
+        <label>Bitiş</label>
+        <input name="EndTime" placeholder="09:30" />
+    </div>
+
+    <div class="formrow">
+        <label>Koltuk (boş=hepsi)</label>
+        <input name="ChairNo" type="number" min="1" />
+    </div>
+
+    <div class="formrow">
+        <label>Not</label>
+        <input name="Reason" />
+    </div>
+
+    <button type="submit">Ekle</button>
+</form>
+
+<hr />
+
+<h3>Tekil Bloklar (son 200)</h3>
+<table class="tbl">
+    <thead><tr><th>Tarih</th><th>Saat</th><th>Koltuk</th><th>Not</th><th>İşlem</th></tr></thead>
+    <tbody>
+        @foreach (var b in manual)
+        {
+            <tr>
+                <td>@b.Date</td>
+                <td>@b.StartTime - @b.EndTime</td>
+                <td>@(b.ChairNo?.ToString() ?? "Hepsi")</td>
+                <td>@b.Reason</td>
+                <td>
+                    <form method="post" action="/Admin/DisableManualBlock" style="display:inline;">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@b.Id" />
+                        <input type="hidden" name="salonId" value="@ViewBag.SalonId" />
+                        <button type="submit">Pasif Yap</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Tekrarlayan Bloklar</h3>
+<table class="tbl">
+    <thead><tr><th>Tip</th><th>Gün</th><th>Saat</th><th>Koltuk</th><th>Not</th><th>İşlem</th></tr></thead>
+    <tbody>
+        @foreach (var r in recurring)
+        {
+            <tr>
+                <td>@r.Type</td>
+                <td>@(r.DayOfWeekIso?.ToString() ?? "-")</td>
+                <td>@r.StartTime - @r.EndTime</td>
+                <td>@(r.ChairNo?.ToString() ?? "Hepsi")</td>
+                <td>@r.Reason</td>
+                <td>
+                    <form method="post" action="/Admin/DisableRecurringBlock" style="display:inline;">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@r.Id" />
+                        <input type="hidden" name="salonId" value="@ViewBag.SalonId" />
+                        <button type="submit">Pasif Yap</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Admin/Salons">← Salonlar</a>

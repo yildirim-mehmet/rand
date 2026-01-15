@@ -1,0 +1,29 @@
+﻿@model Randevu.Models.Dto.SalonUpsertDto
+<link rel="stylesheet" href="/css/site.css" />
+
+<h2>Salon @(Model.Id is null ? "Ekle" : "Düzenle")</h2>
+
+<form method="post" action="/Admin/SalonSave">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div class="formrow">
+        <label>Salon Adı</label>
+        <input name="Name" value="@Model.Name" />
+    </div>
+
+    <div class="formrow">
+        <label>Koltuk Sayısı</label>
+        <input type="number" name="ChairCount" min="1" max="10" value="@Model.ChairCount" />
+    </div>
+
+    <div class="formrow">
+        <label>Aktif</label>
+        <input type="checkbox" name="IsActive" value="true" @(Model.IsActive ? "checked" : "") />
+    </div>
+
+    <button type="submit">Kaydet</button>
+</form>
+
+<a href="/Admin/Salons">← Salonlar</a>

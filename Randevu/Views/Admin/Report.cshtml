@@ -1,0 +1,54 @@
+﻿<link rel="stylesheet" href="/css/site.css" />
+
+<h2>Rapor - @ViewBag.SalonName (SalonId=@ViewBag.SalonId)</h2>
+
+<form method="post" action="/Admin/ReportRun">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="SalonId" value="@ViewBag.SalonId" />
+
+    <div class="formrow">
+        <label>Başlangıç (yyyy-MM-dd)</label>
+        <input name="From" value="@(ViewBag.From ?? "")" />
+    </div>
+    <div class="formrow">
+        <label>Bitiş (yyyy-MM-dd)</label>
+        <input name="To" value="@(ViewBag.To ?? "")" />
+    </div>
+    <button type="submit">Getir</button>
+</form>
+
+@if (ViewBag.Rows != null)
+{
+    var rows = ViewBag.Rows as dynamic;
+
+    <h3>Sonuçlar</h3>
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Tarih</th>
+                <th>Saat</th>
+                <th>Koltuk</th>
+                <th>Kullanıcı</th>
+                <th>Ad</th>
+                <th>UTC</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in rows)
+            {
+                <tr>
+                    <td>@r.Id</td>
+                    <td>@r.Date</td>
+                    <td>@r.StartTime</td>
+                    <td>@r.ChairNo</td>
+                    <td>@r.UserName</td>
+                    <td>@r.DisplayName</td>
+                    <td>@r.CreatedAtUtc</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a href="/Admin/Salons">← Salonlar</a>

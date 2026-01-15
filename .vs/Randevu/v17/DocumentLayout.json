@@ -1,0 +1,734 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\services\\weeklyslotgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\services\\weeklyslotgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\admin\\salons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\admin\\salons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\entities\\salon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\entities\\salon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\entities\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\entities\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\entities\\chair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\entities\\chair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\entities\\slotstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\entities\\slotstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\wwwroot\\js\\booking.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\wwwroot\\js\\booking.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\salons\\chairs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\salons\\chairs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\randevu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\randevu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\home\\logininfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\home\\logininfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\admin\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\admin\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\admin\\blocks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\admin\\blocks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\admin\\salonedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\admin\\salonedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\salons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\salons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\models\\dto\\admindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\models\\dto\\admindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\models\\dto\\weeksnapshotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\models\\dto\\weeksnapshotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\models\\dto\\cancelrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\models\\dto\\cancelrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\models\\dto\\bookrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\models\\dto\\bookrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\controllers\\salonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\controllers\\salonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\hubs\\bookinghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\hubs\\bookinghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\services\\blockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\services\\blockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\services\\cancelpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\services\\cancelpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\services\\eligibilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\services\\eligibilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\services\\slotrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\services\\slotrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\services\\bookingwindowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\services\\bookingwindowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\services\\timeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\services\\timeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\entities\\recurringblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\entities\\recurringblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\entities\\manualblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\entities\\manualblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|c:\\users\\_a19sisopr35\\source\\repos\\randevu\\randevu\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C97D34F-6CE1-4403-8DF7-CB8FC2725AFA}|Randevu\\Randevu.csproj|solutionrelative:randevu\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Chair.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\Chair.cs",
+              "RelativeDocumentMoniker": "Randevu\\Entities\\Chair.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\Chair.cs",
+              "RelativeToolTip": "Randevu\\Entities\\Chair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T06:41:59.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TimeSlot.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\TimeSlot.cs",
+              "RelativeDocumentMoniker": "Randevu\\Entities\\TimeSlot.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\TimeSlot.cs",
+              "RelativeToolTip": "Randevu\\Entities\\TimeSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T06:39:48.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeeklySlotGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\WeeklySlotGenerator.cs",
+              "RelativeDocumentMoniker": "Randevu\\Services\\WeeklySlotGenerator.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\WeeklySlotGenerator.cs",
+              "RelativeToolTip": "Randevu\\Services\\WeeklySlotGenerator.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAD4vzAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T06:00:29.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Randevu\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Randevu\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:05:31.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SlotStatus.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\SlotStatus.cs",
+              "RelativeDocumentMoniker": "Randevu\\Entities\\SlotStatus.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\SlotStatus.cs",
+              "RelativeToolTip": "Randevu\\Entities\\SlotStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T06:39:31.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "booking.js",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\wwwroot\\js\\booking.js",
+              "RelativeDocumentMoniker": "Randevu\\wwwroot\\js\\booking.js",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\wwwroot\\js\\booking.js",
+              "RelativeToolTip": "Randevu\\wwwroot\\js\\booking.js",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAwwJ8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-14T15:14:36.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Program.cs",
+              "RelativeDocumentMoniker": "Randevu\\Program.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Program.cs",
+              "RelativeToolTip": "Randevu\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T08:17:43.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:13:05.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\Report.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Admin\\Report.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\Report.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Admin\\Report.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:14:11.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Chairs.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Salons\\Chairs.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Salons\\Chairs.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Salons\\Chairs.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Salons\\Chairs.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:12:40.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Blocks.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\Blocks.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Admin\\Blocks.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\Blocks.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Admin\\Blocks.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:13:53.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Salon.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\Salon.cs",
+              "RelativeDocumentMoniker": "Randevu\\Entities\\Salon.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\Salon.cs",
+              "RelativeToolTip": "Randevu\\Entities\\Salon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:03:40.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Salons.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\Salons.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Admin\\Salons.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\Salons.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Admin\\Salons.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:13:21.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Randevu",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Randevu.csproj",
+              "RelativeDocumentMoniker": "Randevu\\Randevu.csproj",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Randevu.csproj",
+              "RelativeToolTip": "Randevu\\Randevu.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-14T14:39:49.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Randevu\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Randevu\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-14T15:14:58.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T08:17:07.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SalonEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\SalonEdit.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Admin\\SalonEdit.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Admin\\SalonEdit.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Admin\\SalonEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:13:38.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Salons\\Index.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Salons\\Index.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Salons\\Index.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Salons\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:12:17.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\appsettings.json",
+              "RelativeDocumentMoniker": "Randevu\\appsettings.json",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\appsettings.json",
+              "RelativeToolTip": "Randevu\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-14T15:01:17.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Home\\LoginInfo.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\Home\\LoginInfo.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\Home\\LoginInfo.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\Home\\LoginInfo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:16:00.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:11:55.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Randevu\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Randevu\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T15:11:24.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Randevu\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Randevu\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAwDABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:10:49.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminDtos.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Models\\Dto\\AdminDtos.cs",
+              "RelativeDocumentMoniker": "Randevu\\Models\\Dto\\AdminDtos.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Models\\Dto\\AdminDtos.cs",
+              "RelativeToolTip": "Randevu\\Models\\Dto\\AdminDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:10:31.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Randevu\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Randevu\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAAwCsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:10:06.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WeekSnapshotDto.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Models\\Dto\\WeekSnapshotDto.cs",
+              "RelativeDocumentMoniker": "Randevu\\Models\\Dto\\WeekSnapshotDto.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Models\\Dto\\WeekSnapshotDto.cs",
+              "RelativeToolTip": "Randevu\\Models\\Dto\\WeekSnapshotDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:09:48.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CancelRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Models\\Dto\\CancelRequestDto.cs",
+              "RelativeDocumentMoniker": "Randevu\\Models\\Dto\\CancelRequestDto.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Models\\Dto\\CancelRequestDto.cs",
+              "RelativeToolTip": "Randevu\\Models\\Dto\\CancelRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:09:34.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BookRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Models\\Dto\\BookRequestDto.cs",
+              "RelativeDocumentMoniker": "Randevu\\Models\\Dto\\BookRequestDto.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Models\\Dto\\BookRequestDto.cs",
+              "RelativeToolTip": "Randevu\\Models\\Dto\\BookRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:09:18.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SalonsController.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\SalonsController.cs",
+              "RelativeDocumentMoniker": "Randevu\\Controllers\\SalonsController.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\SalonsController.cs",
+              "RelativeToolTip": "Randevu\\Controllers\\SalonsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:08:38.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BookingHub.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Hubs\\BookingHub.cs",
+              "RelativeDocumentMoniker": "Randevu\\Hubs\\BookingHub.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Hubs\\BookingHub.cs",
+              "RelativeToolTip": "Randevu\\Hubs\\BookingHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:07:46.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BlockService.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\BlockService.cs",
+              "RelativeDocumentMoniker": "Randevu\\Services\\BlockService.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\BlockService.cs",
+              "RelativeToolTip": "Randevu\\Services\\BlockService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:07:18.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Randevu\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Randevu\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T08:15:30.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Randevu\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Randevu\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T08:16:06.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CancelPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\CancelPolicy.cs",
+              "RelativeDocumentMoniker": "Randevu\\Services\\CancelPolicy.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\CancelPolicy.cs",
+              "RelativeToolTip": "Randevu\\Services\\CancelPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:07:04.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EligibilityService.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\EligibilityService.cs",
+              "RelativeDocumentMoniker": "Randevu\\Services\\EligibilityService.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\EligibilityService.cs",
+              "RelativeToolTip": "Randevu\\Services\\EligibilityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:06:47.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SlotRules.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\SlotRules.cs",
+              "RelativeDocumentMoniker": "Randevu\\Services\\SlotRules.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\SlotRules.cs",
+              "RelativeToolTip": "Randevu\\Services\\SlotRules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:06:32.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BookingWindowService.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\BookingWindowService.cs",
+              "RelativeDocumentMoniker": "Randevu\\Services\\BookingWindowService.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\BookingWindowService.cs",
+              "RelativeToolTip": "Randevu\\Services\\BookingWindowService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:06:16.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TimeService.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\TimeService.cs",
+              "RelativeDocumentMoniker": "Randevu\\Services\\TimeService.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Services\\TimeService.cs",
+              "RelativeToolTip": "Randevu\\Services\\TimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:06:00.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\Staff.cs",
+              "RelativeDocumentMoniker": "Randevu\\Entities\\Staff.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\Staff.cs",
+              "RelativeToolTip": "Randevu\\Entities\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:05:01.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RecurringBlock.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\RecurringBlock.cs",
+              "RelativeDocumentMoniker": "Randevu\\Entities\\RecurringBlock.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\RecurringBlock.cs",
+              "RelativeToolTip": "Randevu\\Entities\\RecurringBlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:04:43.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ManualBlock.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\ManualBlock.cs",
+              "RelativeDocumentMoniker": "Randevu\\Entities\\ManualBlock.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\ManualBlock.cs",
+              "RelativeToolTip": "Randevu\\Entities\\ManualBlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:04:22.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "Randevu\\Entities\\Appointment.cs",
+              "ToolTip": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Entities\\Appointment.cs",
+              "RelativeToolTip": "Randevu\\Entities\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:04:05.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

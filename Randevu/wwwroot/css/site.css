@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 12px;
+}
+
+.top {
+    background: #f6f6f6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 220px;
+    text-decoration: none;
+    color: #111;
+}
+
+    .card:hover {
+        background: #fafafa;
+    }
+
+.tbl {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .tbl th, .tbl td {
+        border: 1px solid #ddd;
+        padding: 6px;
+        text-align: center;
+    }
+
+.formrow {
+    margin: 8px 0;
+}
+
+    .formrow label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+    .formrow input, .formrow select {
+        width: 320px;
+        padding: 6px;
+    }
+
+.slot {
+    cursor: pointer;
+    height: 26px;
+}
+
+    .slot.active {
+        background: #2b6cb0;
+    }
+
+    .slot.booked {
+        background: #7b1e2b;
+    }
+
+    .slot.closed {
+        background: #b91c1c;
+    }
+
+
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}*/

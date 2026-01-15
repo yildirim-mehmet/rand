@@ -1,0 +1,38 @@
+﻿@model List<Randevu.Entities.Salon>
+<link rel="stylesheet" href="/css/site.css" />
+
+<h2>Salonlar</h2>
+
+<div style="margin-bottom:10px;">
+    <a href="/Admin/SalonEdit">+ Yeni Salon</a>
+</div>
+
+<table class="tbl">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ad</th>
+            <th>Koltuk</th>
+            <th>Aktif</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Name</td>
+                <td>@s.ChairCount</td>
+                <td>@(s.IsActive ? "Evet" : "Hayır")</td>
+                <td>
+                    <a href="/Admin/SalonEdit/@s.Id">Düzenle</a> |
+                    <a href="/Admin/Blocks?salonId=@s.Id">Kapatma/Blok</a> |
+                    <a href="/Admin/Report?salonId=@s.Id">Rapor</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Admin/Index">← Yönetim</a>

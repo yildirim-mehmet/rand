@@ -1,0 +1,37 @@
+﻿@model Randevu.Entities.Salon
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+
+<link rel="stylesheet" href="/css/site.css" />
+
+@{
+    var tokens = Antiforgery.GetAndStoreTokens(Context);
+}
+
+<!-- Antiforgery token: JS fetch header'ında gönderilecek -->
+<meta name="csrf-token" content="@tokens.RequestToken" />
+
+<div class="top">
+    <div><b>Salon:</b> @ViewBag.SalonName</div>
+    <div><b>Aktif hafta pazartesi:</b> @ViewBag.WeekMonday</div>
+    <div><b>Pencere kapanış:</b> @ViewBag.WindowClose</div>
+    <div style="margin-top:8px;">
+        <a href="/Salons/Index">← Salonlar</a> |
+        <a href="/Account/Logout">Çıkış</a>
+    </div>
+</div>
+
+<div id="myAppointments"></div>
+
+<h3>Randevu Tablosu</h3>
+<div id="grid"></div>
+
+<script src="~/js/signalr.js"></script>
+<script>
+    window.bookingConfig = {
+      salonId: @ViewBag.SalonId,
+      mondayIso: "@ViewBag.WeekMonday",
+      chairCount: @ViewBag.ChairCount,
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+    };
+</script>
+<script src="/js/booking.js"></script>

@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Randevu.Controllers.BookingController",
+    "Method": "Book",
+    "RelativePath": "api/booking/book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Randevu.Models.Dto.BookRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Randevu.Controllers.BookingController",
+    "Method": "Cancel",
+    "RelativePath": "api/booking/cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Randevu.Models.Dto.CancelRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Randevu.Controllers.BookingController",
+    "Method": "GetWeek",
+    "RelativePath": "api/booking/week/{salonId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Randevu.Models.Dto.WeekSnapshotDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

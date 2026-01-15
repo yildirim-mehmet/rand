@@ -1,0 +1,25 @@
+﻿@model List<Randevu.Entities.Salon>
+
+<link rel="stylesheet" href="/css/site.css" />
+
+<div class="top">
+    <div><b>Aktif hafta:</b> @ViewBag.WeekMonday - @ViewBag.WeekSunday</div>
+    <div><b>Pencere:</b> @ViewBag.WindowOpen → @ViewBag.WindowClose</div>
+    <div><b>Kullanıcı:</b> @ViewBag.AdSoyad (@ViewBag.KullaniciAdi) - @ViewBag.Aciklama</div>
+    <div style="margin-top:8px;">
+        <a href="/Admin/Index">Yönetim</a> |
+        <a href="/Account/Logout">Çıkış</a>
+    </div>
+</div>
+
+<h2>Salonlar</h2>
+
+<div class="cards">
+    @foreach (var s in Model)
+    {
+        <a class="card" href="@Url.Action("Chairs", "Salons", new { id = s.Id })">
+            <div class="title">@s.Name</div>
+            <div>Koltuk: @s.ChairCount</div>
+        </a>
+    }
+</div>

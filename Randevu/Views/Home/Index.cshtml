@@ -1,0 +1,56 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+} *@
+
+
+@{
+    ViewData["Title"] = "Randevu Ekranı";
+}
+
+<link rel="stylesheet" href="/css/site.css" />
+
+<h2>Hoşgeldiniz</h2>
+<div><b>Ad Soyad:</b> @ViewBag.AdSoyad</div>
+<div><b>Kullanıcı:</b> @ViewBag.KullaniciAdi</div>
+<div><b>Açıklama:</b> @ViewBag.Aciklama</div>
+
+<div style="margin-top:10px;">
+    <a href="/Salons/Index">Randevu Ekranı</a> |
+    <a href="/Account/Logout">Çıkış</a>
+</div>
+
+
+
+<div class="container mt-5">
+    <div class="card border-primary shadow">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">, @ViewBag.Tc Hoşgeldiniz, @ViewBag.AdSoyad </h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <p><strong>Kullanıcı:</strong> @ViewBag.KullaniciAdi</p>
+                    <p><strong>Ünvan:</strong> @ViewBag.Aciklama</p>
+                    <hr />
+                    <a href="/Account/Logout" class="btn btn-danger btn-sm w-100">Oturumu Kapat (Kill)</a>
+                </div>
+                <div class="col-md-8 border-start">
+                    <h4>Randevu İşlemi</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Randevu Notunuz</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-success">Kaydet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
