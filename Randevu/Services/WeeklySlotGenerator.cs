@@ -26,17 +26,25 @@ namespace Randevu.Services
         {
             var now = DateTime.Now;
 
-            if (now.DayOfWeek != DayOfWeek.Friday) return;
-            if (now.TimeOfDay < new TimeSpan(8, 0, 0)) return;
+            // Sadece Cuma günü 08:00 sonrası çalışır
+            if (now.DayOfWeek != DayOfWeek.Friday)
+                return;
 
+            if (now.TimeOfDay < new TimeSpan(8, 0, 0))
+                return;
+
+            // Bir sonraki haftanın Pazartesi günü
             var nextMonday = DateOnly.FromDateTime(now)
                 .AddDays(((int)DayOfWeek.Monday - (int)now.DayOfWeek + 7) % 7);
 
             using var scope = _scopeFactory.CreateScope();
             var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-            // Aynı haftayı tekrar üretme
-            if (await db.TimeSlots.AnyAsync(x => x.SlotDate == nextMonday))
+            // Aynı haftanın slotları zaten üretildiyse tekrar üretme
+            bool alreadyExists = await db.TimeSlots
+                .AnyAsync(x => x.SlotDate == nextMonday);
+
+            if (alreadyExists)
                 return;
 
             await GenerateWeekAsync(db, nextMonday);
@@ -45,24 +53,24 @@ namespace Randevu.Services
         private async Task GenerateWeekAsync(AppDbContext db, DateOnly monday)
         {
             var salons = await db.Salons
-                .Where(s => s.Aktif)
-                .Include(s => s.Chairs.Where(c => c.Aktif))
+                .Where(s => s.IsActive)
                 .ToListAsync();
 
             foreach (var salon in salons)
             {
-                foreach (var chair in salon.Chairs)
+                for (int day = 0; day < 7; day++)
                 {
-                    for (int d = 0; d < 7; d++)
-                    {
-                        var date = monday.AddDays(d);
+                    var date = monday.AddDays(day);
 
-                        GenerateSlots(db, salon.Id, chair.Id, date,
-                            new TimeSpan(8, 30, 0), new TimeSpan(12, 0, 0));
+                    // Sabah 08:30 - 12:00
+                    GenerateSlots(db, salon, date,
+                        new TimeSpan(8, 30, 0),
+                        new TimeSpan(12, 0, 0));
 
-                        GenerateSlots(db, salon.Id, chair.Id, date,
-                            new TimeSpan(13, 30, 0), new TimeSpan(17, 0, 0));
-                    }
+                    // Öğleden sonra 13:30 - 17:00
+                    GenerateSlots(db, salon, date,
+                        new TimeSpan(13, 30, 0),
+                        new TimeSpan(17, 0, 0));
                 }
             }
 
@@ -71,23 +79,35 @@ namespace Randevu.Services
 
         private void GenerateSlots(
             AppDbContext db,
-            int salonId,
-            int chairId,
+            Salon salon,
             DateOnly date,
             TimeSpan start,
             TimeSpan end)
         {
-            for (var t = start; t < end; t += TimeSpan.FromMinutes(30))
+            for (var time = start; time < end; time += TimeSpan.FromMinutes(salon.SlotMinutes))
             {
-                db.TimeSlots.Add(new TimeSlot
+                // Salon içindeki koltuklar: 1..ChairCount
+                for (int koltukNo = 1; koltukNo <= salon.ChairCount; koltukNo++)
                 {
-                    SalonId = salonId,
-                    KoltukId = chairId,
-                    SlotDate = date,
-                    StartTime = t,
-                    EndTime = t.Add(TimeSpan.FromMinutes(30)),
-                    Status = SlotStatus.Bos
-                });
+                    bool exists = db.TimeSlots.Any(x =>
+                        x.SalonId == salon.Id &&
+                        x.KoltukId == koltukNo &&
+                        x.SlotDate == date &&
+                        x.StartTime == time);
+
+                    if (exists)
+                        continue;
+
+                    db.TimeSlots.Add(new TimeSlot
+                    {
+                        SalonId = salon.Id,
+                        KoltukId = koltukNo,
+                        SlotDate = date,
+                        StartTime = time,
+                        EndTime = time.Add(TimeSpan.FromMinutes(salon.SlotMinutes)),
+                        Status = SlotStatus.Bos
+                    });
+                }
             }
         }
     }
