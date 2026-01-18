@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //slolarý ðretmek içn
-builder.Services.AddHostedService<WeeklySlotGenerator>();
+//builder.Services.AddHostedService<WeeklySlotGenerator>();
 
 
 // EF Core - MSSQL

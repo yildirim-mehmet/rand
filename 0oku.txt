@@ -1,0 +1,10 @@
+1-) mevcut proje bilgisayarında
+sln ile aynı dizine packages dizini oluştur. sonrasında 
+
+dotnet restore Randevu.sln --packages ./packages
+
+çalıştır ve tüm gerekli paketleri bu klasöre kopyalasın
+
+2-) kopyalanan yerel hedef pcde
+cd D:\Projeler\LoginApp
+dotnet restore LoginApp.sln

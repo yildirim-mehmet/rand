@@ -21,6 +21,7 @@ public class HomeController : Controller
 
     public IActionResult LoginInfo()
     {
-        return Content("Oturum kapatıldı veya geçersiz. Lütfen Ana Kapı üzerinden giriş yapın.");
+        return View();
+        return Content("Oturum kapatıldı veya geçersiz. Lütfen <a href=\"/Admin/Index\">Yönetim</a> Ana Kapı üzerinden giriş yapın.");
     }
 }

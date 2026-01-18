@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Randevu.Data;
 using Randevu.Entities;
@@ -158,7 +159,7 @@ public class BookingController : ControllerBase
 
         // Kural: pencere kapalıysa booking yok
         var desc = User.FindFirst("Description")?.Value ?? "";
-        bool isEngineer = desc.Contains("Müh.", StringComparison.OrdinalIgnoreCase);
+        bool isEngineer = desc.Contains("YILD", StringComparison.OrdinalIgnoreCase);
 
         if (!_window.CanUserBookNow(now, isEngineer))
             return BadRequest("Şu an randevu alma işlemi kapalı.");
@@ -216,15 +217,30 @@ public class BookingController : ControllerBase
 
         _db.Appointments.Add(appt);
 
+
         try
         {
-            // Unique index burada son kilit: aynı slot iki kişi alamaz
             await _db.SaveChangesAsync(ct);
         }
-        catch (DbUpdateException)
+        catch (DbUpdateException ex)
+            when (ex.InnerException is SqlException sqlEx
+                  && (sqlEx.Number == 2601 || sqlEx.Number == 2627))
         {
-            return BadRequest("Bu koltuk bu saatte az önce doldu. Lütfen yenileyip tekrar deneyin.");
+            // Unique index violation
+            return Conflict("Bu slot şu anda dolu. Lütfen sayfayı yenileyip tekrar deneyin.");
         }
+
+
+        //try
+        //{
+        //    // Unique index burada son kilit: aynı slot iki kişi alamaz
+        //    await _db.SaveChangesAsync(ct);
+        //}
+        //catch (DbUpdateException)
+        //{
+        //    //return BadRequest("Bu koltuk bu saatte az önce doldu. Lütfen yenileyip tekrar deneyin.");
+        //    return Conflict("Bu slot şu anda dolu. Lütfen sayfayı yenileyip tekrar deneyin.");
+        //}
 
         // SignalR yayın (aktif haftanın grubu)
         var groupKey = $"salon:{req.SalonId}:week:{week.Monday:yyyy-MM-dd}";

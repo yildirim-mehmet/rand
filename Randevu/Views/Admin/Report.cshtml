@@ -1,4 +1,7 @@
-﻿<link rel="stylesheet" href="/css/site.css" />
+﻿
+
+
+<link rel="stylesheet" href="/css/site.css" />
 
 <h2>Rapor - @ViewBag.SalonName (SalonId=@ViewBag.SalonId)</h2>
 
@@ -7,15 +10,19 @@
     <input type="hidden" name="SalonId" value="@ViewBag.SalonId" />
 
     <div class="formrow">
-        <label>Başlangıç (yyyy-MM-dd)</label>
-        <input name="From" value="@(ViewBag.From ?? "")" />
+        <label>Başlangıç Tarihi</label>
+        <input name="From" class="date-picker" value="@(ViewBag.From ?? "")" />
     </div>
+
     <div class="formrow">
-        <label>Bitiş (yyyy-MM-dd)</label>
-        <input name="To" value="@(ViewBag.To ?? "")" />
+        <label>Bitiş Tarihi</label>
+        <input name="To" class="date-picker" value="@(ViewBag.To ?? "")" />
     </div>
+
     <button type="submit">Getir</button>
 </form>
+
+
 
 @if (ViewBag.Rows != null)
 {
