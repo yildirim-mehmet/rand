@@ -2441,16 +2441,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Randevu.csproj",
+      "projectUniqueName": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu_lcl_18012025_1430\\Randevu\\Randevu.csproj",
       "projectName": "Randevu",
-      "projectPath": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Randevu.csproj",
+      "projectPath": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu_lcl_18012025_1430\\Randevu\\Randevu.csproj",
       "packagesPath": "C:\\Users\\_a19sisopr35\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\obj\\",
+      "outputPath": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu_lcl_18012025_1430\\Randevu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+        "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu_lcl_18012025_1430\\NuGet.Config",
         "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\NuGet.Config",
         "C:\\Users\\_a19sisopr35\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -2462,7 +2463,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\packages": {},
+        "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu_lcl_18012025_1430\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

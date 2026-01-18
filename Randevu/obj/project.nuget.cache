@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bjp79oAw0kY=",
+  "dgSpecHash": "Jyz6abn7egM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu\\Randevu.csproj",
+  "projectFilePath": "C:\\Users\\_a19sisopr35\\source\\repos\\Randevu\\Randevu_lcl_18012025_1430\\Randevu\\Randevu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\_a19sisopr35\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\_a19sisopr35\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
